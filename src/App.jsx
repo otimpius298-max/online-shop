@@ -2,10 +2,11 @@ import Product from "./components/Product";
 import TopNavigation from "./components/TopNavigation";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Beauty from "./pages/Beauty";
-import Groceries from "./pages/Groceries";
+
 import Furniture from "./pages/Furniture";
 import Fragnances from "./pages/Fragnances";
 import Home from "./pages/Home";
+import Electronics from "./pages/Electronics";
 
 export default function App(props) {
   const router = createBrowserRouter([
@@ -18,8 +19,8 @@ export default function App(props) {
       element: <Beauty/>
     },
     {
-      path: "/groceries",
-      element: <Groceries/>
+      path: "/electronics",
+      element: <Electronics/>
     },
     {
       path: "/furniture",

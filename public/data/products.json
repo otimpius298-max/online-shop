@@ -1,76 +1,185 @@
 {
   "products":[
+    {
+  "id": 1,
+  "title": "Vitamin C Face Serum",
+  "category": "Beauty",
+  "price": 55000,
+  "inStock": true,
+  "image": "https://ug.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/08/7226952/1.jpg?2597",
+  "description": "Brightening serum that evens skin tone and reduces dark spots."
+},
+{
+  "id": 2,
+  "title": "Matte Lipstick",
+  "category": "Beauty",
+  "price": 18000,
+  "inStock": true,
+  "image": "https://i.ebayimg.com/images/g/eJAAAeSwM2lqmarg/s-l1600.webp",
+  "description": "Long-lasting matte lipstick in a deep berry shade."
+},
+{
+  "id": 3,
+  "title": "Argan Hair Oil",
+  "category": "Beauty",
+  "price": 35000,
+  "inStock": true,
+  "image": "https://sinbadsupermarket.com/cdn/shop/files/MissSweetMoroccanArganEnrichedHairOil180ml.jpg?v=1786465796&width=480",
+  "description": "Nourishing oil that adds shine and reduces frizz."
+},
+{
+  "id": 4,
+  "title": "Foaming Face Wash",
+  "category": "Beauty",
+  "price": 22000,
+  "inStock": false,
+  "image": "https://caudalie-europe.imgix.net/media/catalog/product/3/0/307-instant-foaming-cleanser-ingredients.jpg?auto=format,compress&cs=srgb&fm=auto&w=1200",
+  "description": "Gentle daily cleanser for normal to oily skin."
+},
+{
+  "id": 5,
+  "title": "Makeup Brush Set",
+  "category": "Beauty",
+  "price": 48000,
+  "inStock": true,
+  "image": "https://www.morphe.com/cdn/shop/files/Morphe-2026-CustomBlends-PDP-IcedMocha-WhyYoullLoveIt_1.jpg?v=1780377150&width=375",
+  "description": "Set of 10 soft brushes for face and eyes, with a carry pouch."
+},
+{
+  "id": 6,
+  "title": "Sandalwood Eau de Toilette 100ml",
+  "category": "Fragrances",
+  "price": 110000,
+  "inStock": true,
+  "image": "https://ug.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/0002062/1.jpg?2844",
+  "description": "Smooth woody scent with sandalwood and cedar."
+},
+{
+  "id": 7,
+  "title": "Jasmine Night Perfume 50ml",
+  "category": "Fragrances",
+  "price": 95000,
+  "inStock": true,
+  "image": "https://lk.spaceylon.com/cdn/shop/files/EauDeCeylonNightJasmineBox.jpg?v=1779856800&width=713",
+  "description": "Elegant evening fragrance with jasmine and white musk."
+},
+{
+  "id": 8,
+  "title": "Ocean Breeze Aftershave 100ml",
+  "category": "Fragrances",
+  "price": 45000,
+  "inStock": true,
+  "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbaZrBJ9UrVtzpgEYtGolyw_JJLNlx3WQqhqvWH3ccvpDdLJLg",
+  "description": "Fresh aquatic aftershave that soothes the skin."
+},
+{
+  "id": 9,
+  "title": "Amber Spice Attar 12ml",
+  "category": "Fragrances",
+  "price": 50000,
+  "inStock": false,
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC2DOZJz6ZZerjeveXcv0i4NR-wVsRPdQLNNpIcCH3jSne2XLwEs5PyfQ&s=10",
+  "description": "Alcohol-free concentrated oil with amber and warm spices."
+},
+{
+  "id": 10,
+  "title": "Lavender Pillow and Room Spray 150ml",
+  "category": "Fragrances",
+  "price": 28000,
+  "inStock": true,
+  "image": "https://rabbitrabbit.nz/cdn/shop/products/DSC_9150-Edit_900x.jpg?v=1660701057",
+  "description": "Calming lavender spray for bedrooms and linen."
+},
+{
+  "id": 34,
+  "title": "Wooden Dining Table 6 Seater",
+  "category": "Furniture",
+  "price": 950000,
+  "inStock": true,
+  "image": "https://pictures-uganda.jijistatic.com/10712728_MzAwLTM3NS03NWU4NThjZWYy.webp",
+  "description": "Solid wood dining table with a smooth varnished top."
+},
+{
+  "id": 35,
+  "title": "3-Seater Fabric Sofa",
+  "category": "Furniture",
+  "price": 1450000,
+  "inStock": true,
+  "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuErhHJoxNYVryLdbpb0J22_TTiLabu1n_4JgXjJP9CsWtFXjj",
+  "description": "Comfortable grey sofa with thick cushions and a wooden frame."
+},
+{
+  "id": 36,
+  "title": "Office Desk with Drawers",
+  "category": "Furniture",
+  "price": 420000,
+  "inStock": true,
+  "image": "https://m.media-amazon.com/images/I/81KpyR8Qh1L._AC_SX569_.jpg",
+  "description": "Study and office desk with three storage drawers."
+},
+{
+  "id": 37,
+  "title": "Queen Size Bed Frame",
+  "category": "Furniture",
+  "price": 780000,
+  "inStock": false,
+  "image": "https://www.bonnyfurniture.com/wp-content/uploads/2015/08/8022-462x364.jpg",
+  "description": "Strong wooden bed frame with a padded headboard."
+},
+{
+  "id": 38,
+  "title": "5-Tier Bookshelf",
+  "category": "Furniture",
+  "price": 260000,
+  "inStock": true,
+  "image": "https://houtlander.co.za/cdn/shop/files/5-tier-bookshelf-12m-wide-shelving-houtlander-389893_1000x.jpg?v=1781191849",
+  "description": "Open shelf unit for books, decor and storage."
+},
   {
-    "id": 1,
-    "title": "Wireless Headphones",
+    "id": 39,
+    "title": "Smartphone",
+    "category": "Electronics",
+    "price": 850000,
+    "inStock": true,
+    "image": "https://ug.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/81/2381062/1.jpg?0885",
+    "description": "Touchscreen phone for calls, apps and photos."
+  },
+  {
+    "id": 40,
+    "title": "",
     "category": "Electronics",
     "price": 120000,
     "inStock": true,
-    "image": "https://picsum.photos/seed/headphones/400/300",
-    "description": "Bluetooth over-ear headphones with 20 hours of battery."
+    "image": "https://www.tilyexpress.ug/wp-content/uploads/2025/02/51N0gVci9L._AC_SL1500_-1024x1024.webp",
+    "description": "Bluetooth earbuds for music and calls."
   },
   {
-    "id": 2,
-    "title": "Smart Watch",
+    "id": 41,
+    "title": "Power Bank",
     "category": "Electronics",
-    "price": 250000,
+    "price": 65000,
     "inStock": true,
-    "image": "https://picsum.photos/seed/watch/400/300",
-    "description": "Fitness tracker with heart rate and sleep tracking."
+    "image": "https://i.ebayimg.com/images/g/aX4AAeSwQJtqMNo4/s-l1600.webp",
+    "description": "Portable battery for charging phones on the go."
   },
   {
-    "id": 3,
-    "title": "Running Shoes",
-    "category": "Fashion",
-    "price": 150000,
+    "id": 42,
+    "title": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 95000,
     "inStock": false,
-    "image": "https://picsum.photos/seed/shoes/400/300",
-    "description": "Light running shoes with a soft sole."
+    "image": "https://www.tilyexpress.ug/wp-content/uploads/2025/05/71QpXo83n2L._AC_SX425_-1024x1024.webp",
+    "description": "Compact wireless speaker with clear sound."
   },
   {
-    "id": 4,
-    "title": "Denim Jacket",
-    "category": "Fashion",
-    "price": 90000,
+    "id": 43,
+    "title": "USB-C Charging Cable",
+    "category": "Electronics",
+    "price": 15000,
     "inStock": true,
-    "image": "https://picsum.photos/seed/jacket/400/300",
-    "description": "Classic blue denim jacket, unisex."
-  },
-  {
-    "id": 5,
-    "title": "Non-stick Frying Pan",
-    "category": "Home",
-    "price": 45000,
-    "inStock": true,
-    "image": "https://picsum.photos/seed/pan/400/300",
-    "description": "28 cm pan that works on gas and electric cookers."
-  },
-  {
-    "id": 6,
-    "title": "Table Lamp",
-    "category": "Home",
-    "price": 60000,
-    "inStock": true,
-    "image": "https://picsum.photos/seed/lamp/400/300",
-    "description": "Warm light desk lamp with a flexible neck."
-  },
-  {
-    "id": 7,
-    "title": "Shea Body Butter",
-    "category": "Beauty",
-    "price": 25000,
-    "inStock": true,
-    "image": "https://picsum.photos/seed/butter/400/300",
-    "description": "Natural moisturiser for dry skin."
-  },
-  {
-    "id": 8,
-    "title": "Hair Dryer",
-    "category": "Beauty",
-    "price": 80000,
-    "inStock": false,
-    "image": "https://picsum.photos/seed/dryer/400/300",
-    "description": "1800 watt dryer with two heat settings."
+    "image": "https://www.tilyexpress.ug/wp-content/uploads/2025/08/1-2025-08-27T041045.899-1024x1024.webp",
+    "description": "Fast-charging cable for phones and other devices."
   }
-]
+  ]
 }
+  

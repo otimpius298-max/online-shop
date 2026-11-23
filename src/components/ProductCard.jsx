@@ -5,7 +5,7 @@ export default function ProductCard({product}) {
       {/* Image with stock badge */}
       <div className="relative">
         <img
-          src={product.images}
+          src={product.image}
           alt={product.title}
           className="w-full h-48 object-cover"
         />

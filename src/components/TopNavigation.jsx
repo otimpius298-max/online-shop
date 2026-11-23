@@ -12,8 +12,7 @@ export default function TopNavigation(props) {
             <NavLink to="/beauty" className={({isActive}) => isActive ? "text-white font-bold px-3 py-2 bg-sky-500 rounded-lg" : "text-white hover:bg-sky-600 px-3 py-2 rounded-lg"}>Beauty</NavLink>
             <NavLink to="/fragnances" className={({isActive}) => isActive ? "text-white font-bold px-3 py-2 bg-sky-500 rounded-lg" : "text-white hover:bg-sky-600 px-3 py-2 rounded-lg"}>Fragnaces</NavLink>
             <NavLink to="/furniture" className={({isActive}) => isActive ? "text-white font-bold px-3 py-2 bg-sky-500 rounded-lg" : "text-white hover:bg-sky-600 px-3 py-2 rounded-lg"}>Furniture</NavLink>
-            <NavLink to="/groceries" className={({isActive}) => isActive ? "text-white font-bold px-3 py-2 bg-sky-500 rounded-lg" : "text-white hover:bg-sky-600 px-3 py-2 rounded-lg"}>Groceries</NavLink>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/electronics" className={({isActive}) => isActive ? "text-white font-bold px-3 py-2 bg-sky-500 rounded-lg" : "text-white hover:bg-sky-600 px-3 py-2 rounded-lg"}>Electronics</NavLink>
           </nav>
         </div>
       </header>

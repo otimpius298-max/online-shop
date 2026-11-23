@@ -10,18 +10,27 @@ export default function Product(props) {
   const [searchItem, setSearchItem] = useState('');
   const [category, setCategory] = useState('All');
 
-  useEffect(() => {
-    fetch("https://dummyjson.com/products")
-    .then((response) =>response.json())
-    .then((data) =>{
-        console.log(data.products)
-        setProducts(data.products);
+  useEffect(() =>{
+    const loadProducts = async() =>{
+        const data = await fetchProducts()
+        setProducts(data)
         setLoading(false)
-        
-    })
-    .catch((error) =>
-    console.log(error));
+    }
+    loadProducts()
   }, [])
+
+//   useEffect(() => {
+//     fetch("https://dummyjson.com/products")
+//     .then((response) =>response.json())
+//     .then((data) =>{
+//         console.log(data.products)
+//         setProducts(data.products);
+//         setLoading(false)
+        
+//     })
+//     .catch((error) =>
+//     console.log(error));
+//   }, [])
 
   if (loading) return <h1 className="text-center flex justify centerrf">Loading Products...</h1>;
 
@@ -42,7 +51,7 @@ export default function Product(props) {
     <div>
       <div className="min-h-screen bg-gray-100">
         <div className="max-w-6xl mx-auto p-4">
-          {/* Search bar */}
+
           <input
             type="text"
             placeholder="Search product..."
@@ -51,9 +60,9 @@ export default function Product(props) {
             className="w-full p-3 rounded-lg border border-gray-300 bg-white mb-4"
           />
 
-          {/* Two columns: sidebar + products */}
+
           <div className="flex flex-col md:flex-row gap-4">
-            {/* Left column: categories */}
+
             <div className="w-full md:w-64 top-30 self-start h-fit sticky bg-sky-700 text-white rounded-lg p-4 md:self-start">
               <h1 className="text-xl font-bold">Filter By</h1>
               <hr className="my-2 border-sky-300" />
@@ -76,7 +85,7 @@ export default function Product(props) {
               </div>
             </div>
 
-            {/* Right column: products */}
+
             <div className="flex-1">
               <p className="mb-4 text-gray-600">
                 Showing {visibleProducts.length} products

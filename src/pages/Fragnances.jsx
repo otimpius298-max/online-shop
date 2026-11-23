@@ -1,27 +1,26 @@
 import { useEffect, useState } from "react";
 import TopNavigation from "../components/TopNavigation";
 import ProductCard from "../components/ProductCard";
+import { fetchProducts } from "../api";
+import Footer from "../components/Footer";
 
 export default function Fragnances(props) {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetch("https://dummyjson.com/products")
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data.products);
-        setProducts(data.products);
-        setLoading(false);
-      })
-      .catch((error) => console.log(error));
-    setLoading(false);
-  }, []);
+   useEffect(() =>{
+     const loadProducts = async() =>{
+         const data = await fetchProducts()
+         setProducts(data)
+         setLoading(false)
+     }
+     loadProducts()
+   }, [])
 
   if (loading) return <h1>Loading Beauty products...</h1>;
 
   const fragnanceProducts = products.filter(
-    (product) => product.category === "fragrances",
+    (product) => product.category === "Fragrances",
   );
 
   return (
@@ -44,6 +43,7 @@ export default function Fragnances(props) {
           {fragnanceProducts.length === 0 && <p className="text-center py-20 text-gray-600">No product available in this category</p>}
         </section>
       </div>
+      <Footer/>
     </>
   );
 }

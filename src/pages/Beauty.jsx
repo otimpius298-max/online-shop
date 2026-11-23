@@ -1,27 +1,26 @@
 import { useEffect, useState } from "react";
 import TopNavigation from "../components/TopNavigation";
 import ProductCard from "../components/ProductCard";
+import { fetchProducts } from "../api";
+import Footer from "../components/Footer";
 
 export default function Beauty(props) {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetch("https://dummyjson.com/products")
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data.products);
-        setProducts(data.products);
-        setLoading(false);
-      })
-      .catch((error) => console.log(error));
-    setLoading(false);
-  }, []);
+   useEffect(() =>{
+     const loadProducts = async() =>{
+         const data = await fetchProducts()
+         setProducts(data)
+         setLoading(false)
+     }
+     loadProducts()
+   }, [])
 
   if (loading) return <h1>Loading Beauty products...</h1>;
 
   const beautyProducts = products.filter(
-    (product) => product.category === "beauty",
+    (product) => product.category === "Beauty",
   );
 
   return (
@@ -43,6 +42,7 @@ export default function Beauty(props) {
           </div>
         </section>
       </div>
+      <Footer/>
     </>
   );
 }
