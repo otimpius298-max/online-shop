@@ -17,7 +17,13 @@ export default function Beauty(props) {
      loadProducts()
    }, [])
 
-  if (loading) return <h1>Loading Beauty products...</h1>;
+  if (loading) return(
+    <button type="button" className="bg-indigo-500 ..." disabled>
+  <svg className="mr-3 size-5 animate-spin ..." viewBox="0 0 24 24">
+  </svg>
+  Loading…
+</button>
+  )
 
   const beautyProducts = products.filter(
     (product) => product.category === "Beauty",

@@ -5,7 +5,6 @@ import Beauty from "./pages/Beauty";
 
 import Furniture from "./pages/Furniture";
 import Fragnances from "./pages/Fragnances";
-import Home from "./pages/Home";
 import Electronics from "./pages/Electronics";
 
 export default function App(props) {
@@ -30,10 +29,6 @@ export default function App(props) {
       path: "/fragnances",
       element: <Fragnances/>
     },
-    {
-      path: "/home",
-      element: <Home/>
-    }
   ])
 
   return (

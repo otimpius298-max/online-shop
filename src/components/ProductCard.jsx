@@ -2,12 +2,12 @@ export default function ProductCard({product}) {
   return (
     <>
     <div className="bg-white rounded-lg shadow hover:shadow-lg flex flex-col">
-      {/* Image with stock badge */}
+
       <div className="relative">
         <img
           src={product.image}
           alt={product.title}
-          className="w-full h-48 object-cover"
+          className="w-full h-45 hover:-scale-x-100"
         />
         <span
           className={
@@ -20,7 +20,6 @@ export default function ProductCard({product}) {
         </span>
       </div>
 
-      {/* Details */}
       <div className="p-4 flex flex-col flex-1">
         <h3 className="text-lg font-bold text-gray-800">{product.name}</h3>
         <p className="text-gray-500 text-sm mt-1 line-clamp-2">
@@ -29,7 +28,7 @@ export default function ProductCard({product}) {
 
         <p className="text-xl font-bold text-gray-900 mt-3">${product.price}</p>
 
-        {/* mt-auto pushes the button to the bottom so all cards line up */}
+
         <button
           disabled={!product.inStock}
           className={

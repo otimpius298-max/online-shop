@@ -32,7 +32,13 @@ export default function Product(props) {
 //     console.log(error));
 //   }, [])
 
-  if (loading) return <h1 className="text-center flex justify centerrf">Loading Products...</h1>;
+  if (loading) return(
+    <button type="button" className="bg-indigo-500 ..." disabled>
+  <svg className="mr-3 size-5 animate-spin ..." viewBox="0 0 24 24">
+  </svg>
+  Processing…
+</button>
+  )
 
   const categories = [
     "All",
