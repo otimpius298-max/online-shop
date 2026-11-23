@@ -1,0 +1,76 @@
+{
+  "products":[
+  {
+    "id": 1,
+    "title": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 120000,
+    "inStock": true,
+    "image": "https://picsum.photos/seed/headphones/400/300",
+    "description": "Bluetooth over-ear headphones with 20 hours of battery."
+  },
+  {
+    "id": 2,
+    "title": "Smart Watch",
+    "category": "Electronics",
+    "price": 250000,
+    "inStock": true,
+    "image": "https://picsum.photos/seed/watch/400/300",
+    "description": "Fitness tracker with heart rate and sleep tracking."
+  },
+  {
+    "id": 3,
+    "title": "Running Shoes",
+    "category": "Fashion",
+    "price": 150000,
+    "inStock": false,
+    "image": "https://picsum.photos/seed/shoes/400/300",
+    "description": "Light running shoes with a soft sole."
+  },
+  {
+    "id": 4,
+    "title": "Denim Jacket",
+    "category": "Fashion",
+    "price": 90000,
+    "inStock": true,
+    "image": "https://picsum.photos/seed/jacket/400/300",
+    "description": "Classic blue denim jacket, unisex."
+  },
+  {
+    "id": 5,
+    "title": "Non-stick Frying Pan",
+    "category": "Home",
+    "price": 45000,
+    "inStock": true,
+    "image": "https://picsum.photos/seed/pan/400/300",
+    "description": "28 cm pan that works on gas and electric cookers."
+  },
+  {
+    "id": 6,
+    "title": "Table Lamp",
+    "category": "Home",
+    "price": 60000,
+    "inStock": true,
+    "image": "https://picsum.photos/seed/lamp/400/300",
+    "description": "Warm light desk lamp with a flexible neck."
+  },
+  {
+    "id": 7,
+    "title": "Shea Body Butter",
+    "category": "Beauty",
+    "price": 25000,
+    "inStock": true,
+    "image": "https://picsum.photos/seed/butter/400/300",
+    "description": "Natural moisturiser for dry skin."
+  },
+  {
+    "id": 8,
+    "title": "Hair Dryer",
+    "category": "Beauty",
+    "price": 80000,
+    "inStock": false,
+    "image": "https://picsum.photos/seed/dryer/400/300",
+    "description": "1800 watt dryer with two heat settings."
+  }
+]
+}
